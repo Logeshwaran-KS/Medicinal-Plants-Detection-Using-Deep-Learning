@@ -51,6 +51,9 @@ history = model.fit(
 # Evaluating the Test Data
 model.evaluate(test_data)
 
+# Saving the Model
+model.save("Trained_model.keras")
+
 # Plotting Accuracy Graph
 plt.plot(history.history['accuracy'])
 plt.plot(history.history['val_accuracy'])
