@@ -18,4 +18,4 @@ predictions = model.predict(image_array)
 score = sigmoid(predictions[0])
 # Predict along with it confidence
 print("This image most likely belongs to {} with a {:.2f} percent confidence."
-    .format(model.class_names[np.argmax(score)], 100 * np.max(score)))
+    .format(class_names[np.argmax(score)], 100 * np.max(score)))
