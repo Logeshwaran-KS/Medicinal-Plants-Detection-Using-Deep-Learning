@@ -64,7 +64,6 @@ After training, the model undergoes a rigorous evaluation process to assess its 
 - **Test Evaluation**:
   - **Accuracy**: 99.52%
   - **Loss**: 0.0287
-  - **Test Result**: [0.02, 0.997]
 
 These results demonstrate the model's high level of accuracy and its effectiveness in identifying medicinal plants from images.
 
