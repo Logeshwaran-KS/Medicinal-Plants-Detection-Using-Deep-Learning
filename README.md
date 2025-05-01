@@ -86,7 +86,7 @@ To run this project, you'll need to install the following dependencies:
 
 These dependencies can be installed using `pip` by running:
 ```bash
-pip install -r requirements.tx
+pip install -r requirements.txt
 ```
 
 
